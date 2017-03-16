@@ -1,0 +1,29 @@
+{
+  "name": "ne-swapi",
+  "version": "0.1.4",
+  "homepage": "https://github.com/nickescallon/ne-swapi",
+  "authors": [
+    "Nick Escallon <nickescallon@gmail.com>"
+  ],
+  "description": "an angular module for SWAPI",
+  "keyword": [
+    "angular",
+    "swapi"
+  ],
+  "main": "dist/ne-swapi.js",
+  "license": "MIT",
+  "ignore": [],
+  "dependencies": {
+    "angular": ">=1.2"
+  },
+  "_release": "0.1.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.4",
+    "commit": "e34869ad54ae5f204c68e64e0941ec3b5e67e9ee"
+  },
+  "_source": "https://github.com/nickescallon/ne-swapi.git",
+  "_target": "^0.1.4",
+  "_originalSource": "ne-swapi",
+  "_direct": true
+}

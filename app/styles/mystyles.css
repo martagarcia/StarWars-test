@@ -1,0 +1,357 @@
+/* -------------------------------
+ * Color variables
+ * -------------------------------
+ */
+/* -------------------------------
+ * FONTS 
+ * -------------------------------
+ */
+@font-face {
+  font-family: 'Stjedise';
+  src: url('../fonts/Stjedise.ttf');
+}
+@font-face {
+  font-family: 'StarJedi';
+  src: url('../fonts/Starjedi.ttf');
+}
+@font-face {
+  font-family: 'Starjhol';
+  src: url('../fonts/Starjhol.ttf');
+}
+/* -------------------------------
+ * Row
+ * -------------------------------
+ */
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+.row-content {
+  margin: 0px auto;
+  padding: 0px 0px;
+  border-bottom: 1px ;
+  min-height: 500px;
+}
+.row-footer {
+  margin: 0px auto;
+  padding: 20px 0px;
+  background-color: #222;
+  color: #ffffff;
+}
+/* -------------------------------
+ * Nav bar
+ * -------------------------------
+ */
+.navbar-inverse {
+  background: #222;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a {
+  background: #222;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background: #222;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background: #222;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a {
+  background: #222;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a:hover {
+  background: #222;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background: #222;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+  background-color: #222;
+  color: #eeeeee;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+  color: #000000;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+  background-color: #222;
+  color: #eeeeee;
+}
+.navbar-inverse .navbar-text {
+  font-family: Starjhol;
+  font-size: 15px;
+  color: #ffffff;
+  vertical-align: text-bottom;
+  text-align: right;
+  float: left;
+}
+/* -------------------------------
+ * Body, Tab-content, affix
+ * -------------------------------
+ */
+body {
+  margin-top: 20px;
+  align: center;
+  padding: 0px 0px 0px 0px;
+  z-index: 0;
+  font-family: Montserrat, sans-serif;
+  background: url(../images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.tab-content {
+  border-bottom: 1px solid #222;
+  border-left: 1px solid #222;
+  border-right: 1px solid #222;
+  padding: 0px;
+}
+.affix {
+  top: 100px;
+}
+/* -------------------------------
+ * Carousel style 
+ * -------------------------------
+ */
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  top: 50;
+  right: 0;
+  left: 0;
+}
+.carousel-caption h1 {
+  font-family: Starjedi;
+  font-size: 100px;
+  height: 100px;
+  color: #ffffff;
+}
+.carousel-caption h2 {
+  font-family: Starjedi;
+  font-size: 50px;
+  height: 100px;
+  color: #ffffff;
+}
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #222;
+}
+.carousel-inner > .item > img {
+  top: 0;
+  left: 0;
+  height: 500px;
+}
+.carousel .item > img {
+  min-width: 100%;
+}
+#carouselButtons {
+  bottom: 20px;
+  right: 0px;
+}
+@media all and (min-width: 960px) {
+  .carousel-caption h1 {
+    font-size: 100px;
+  }
+  .carousel-caption h2 {
+    font-size: 75px;
+  }
+}
+@media all and (max-width: 959px) and (min-width: 600px) {
+  .carousel-caption h1 {
+    font-size: 60px;
+  }
+  .carousel-caption h2 {
+    font-size: 40px;
+  }
+}
+@media all and (max-width: 599px) and (min-width: 320px) {
+  .carousel-caption h1 {
+    font-size: 30px;
+  }
+  .carousel-caption h2 {
+    font-size: 25px;
+  }
+}
+/* -------------------------------
+ * Buttons
+ * -------------------------------
+ */
+.btn-default {
+  background: #222;
+  background: -webkit-linear-gradient(#333, #222);
+  background: linear-gradient(#333, #222);
+  border: 1px solid #444;
+  border-radius: 0 0 0 0;
+  box-shadow: 0 2px 0 #000000;
+  color: #ffffff;
+  display: block;
+  float: left;
+  font-family: 'Cabin', helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  height: 70px;
+  margin: 0;
+  padding: 0 10px;
+  text-shadow: 0 -1px 0 #000;
+  width: 100px;
+}
+@media (min-width: 320px) {
+  .btn-default {
+    padding: 1em;
+  }
+}
+.btn-default:hover,
+.btn-default:focus {
+  background: #222;
+  color: #eeeeee;
+}
+/* -------------------------------
+ * Input group and filter
+ * -------------------------------
+ */
+.input-group {
+  align-content: center;
+  padding: 50px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 300;
+}
+@media (min-width: 320px) {
+  .input-group {
+    padding: 1em;
+  }
+}
+.input-group .form-control {
+  background: #222;
+  background: -webkit-linear-gradient(#333, #222);
+  background: linear-gradient(#333, #222);
+  border: 1px solid #444;
+  border-radius: 5px 0 0 5px;
+  box-shadow: 0 2px 0 #000000;
+  color: #888;
+  float: left;
+  height: 70px;
+  margin: 0;
+  padding: 0 10px;
+  text-shadow: 0 -1px 0 #000;
+  width: 400px;
+}
+.input-group .dropdown-menu > li > a {
+  background-color: #222;
+  color: #888;
+}
+.input-group .dropdown-menu > li > a:hover {
+  color: #000000;
+}
+.input-group .dropdown-menu > li > a:focus {
+  background: #222;
+  color: #ffffff;
+}
+.input-group .dropdown-menu {
+  background-color: #222;
+  color: #888;
+}
+/* -------------------------------
+ * Social icons style 
+ * -------------------------------
+ */
+.rwd-table {
+  align-content: center;
+  background-color: #000000;
+  color: #888;
+  border-radius: .4em;
+  overflow: hidden;
+  table-layout: fixed;
+  margin-top: 20px;
+}
+.rwd-table tr {
+  border-color: #1a1a1a;
+}
+@media (min-width: 320px) {
+  .rwd-table th,
+  .rwd-table td {
+    padding: 1em ;
+  }
+}
+.rwd-table th,
+.rwd-table td:before {
+  background-color: #222;
+  color: #ffffff;
+}
+/* -------------------------------
+ * Modal style 
+ * -------------------------------
+ */
+.modal-body-style:before {
+  background-color: #222;
+  color: #ffffff;
+}
+.modal-dialog {
+  background-color: #222;
+  color: #ffffff;
+}
+.modal-content {
+  background-color: #222;
+  color: #ffffff;
+}
+.modal-header {
+  background-color: #222;
+  color: #ffffff;
+}
+/* -------------------------------
+ * Social icons style 
+ * -------------------------------
+ */
+.social {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.social ul {
+  margin: 0;
+  padding: 5px;
+}
+.social ul li {
+  margin: 5px;
+  list-style: none outside none;
+  display: inline-block;
+}
+.social i {
+  width: 40px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #4E4F4F;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 12px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+}
+.social i:hover {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+}
